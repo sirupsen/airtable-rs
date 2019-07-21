@@ -2,6 +2,13 @@
 name = "airtable"
 version = "0.1.0"
 authors = ["Simon Eskildsen <sirup@sirupsen.com>"]
+license = "MIT"
+include = ["src/**/*", "Cargo.toml"]
+description = "Airtable API wrapper."
+documentation = "https://github.com/sirupsen/airtable-rs"
+homepage = "https://github.com/sirupsen/airtable-rs"
+repository = "https://github.com/sirupsen/airtable-rs"
+readme = "README.md"
 
 [dependencies]
 reqwest = "0.9.4"
